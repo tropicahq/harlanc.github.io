@@ -412,7 +412,7 @@ The business users can kickoff illegal push/pull clients using the following int
 
 
 ```shell
-curl -X POST -H "Content-Type: application/json" -d '{"id": "17079922471661"}' http://localhost:8000/kick_off_client
+curl -X POST -H "Content-Type: application/json" -d '{"uuid": "17079922471661"}' http://localhost:8000/api/kick_off_client
 ```
 
 ## Pull the RTSP stream from remote to xiu
